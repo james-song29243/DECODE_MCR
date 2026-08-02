@@ -1,9 +1,6 @@
 repositories {
     mavenCentral()
     google() // Needed for androidx
-    maven {
-        url = "https://mymaven.bylazar.com/releases"
-    }
 }
 
 dependencies {
@@ -21,5 +18,9 @@ dependencies {
     implementation 'com.pedropathing:ftc:2.1.2'
     implementation 'com.pedropathing:telemetry:1.0.0'
 
+    // Dashboard
+    implementation 'com.acmerobotics.dashboard:dashboard:0.4.16'
+
+    // Bylazar
     implementation 'com.bylazar:fullpanels:1.0.12'
 }

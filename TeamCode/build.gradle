@@ -41,4 +41,5 @@ dependencies {
     implementation project(':FtcRobotController')
 
     implementation("dev.frozenmilk.sinister:Sloth:0.2.4")
+    implementation("page.j5155.AdvantageScope:lite:v26.0.0")
 }
